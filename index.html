@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <!-- Заметка: обрати внимание на данный метатег (ниже). Погугли для чего он нужен -->
-    <!-- Погуглил -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/normalize.css">
+    <!-- Надо исправить: перед пользовательскими стилями необходимо подключать файл normalize.css. Файл normalize.css сбрасывает стандартные стили браузера, таким образом верстка выглядит одинаково во всех браузерах -->
     <link rel="stylesheet" href="/styles/style.css">
     <title>Научиться учиться</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
+            <!-- Можно лучше: не стоит использовать лишние div'ы обертки. Они могут сильно усложнить верстку -->
+            <!-- Надо исправить: обрати внимание, что стили логотипа будут повторно использоваться в подвале. Общие стили, например, размер, можно вынести в отдельный класс -->
+            <div class="header__logo">
                 <!-- Отлично!: у тега <img> прописан атрибут alt -->
-                <img class="header__logo logo" src="/images/logo.svg" alt="logo_place_header">
-            <h1 class="header__title">
+                <img src="/images/logo.svg" alt="logo_place_header">
+            </div>
+            <!-- Надо исправить: не забывай про семантическую верстку (использование заголовков и параграфов) -->
+            <div class="header__title">
+                <!-- Надо исправить: использование тега <br> считается плохой практикой. Для этого лучше использовать средства css. Например, задавая определенную ширину текстовому блоку -->
                 Научиться
+                <br>
                 учиться
-            </h1>
-            <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-                <a class="header__link" href="#">Узнать&rarr;</a>
-            </h2>
+            </div>
+            <div class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+                <!-- Надо исправить: для добавления простых иконок стоит использовать html-мнемоники - https://html5book.ru/specsimvoly-html/ -->
+                <a class="header__link" href="#">Узнать--></a>
+            </div>
             <img class="header__main-illustration" src="/images/two_again.png" alt="two_again">
             <div class="header__square-pic"></div> 
         </header>
