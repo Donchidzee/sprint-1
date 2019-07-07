@@ -24,7 +24,7 @@
 
 .header__logo {
     position: absolute;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 30px;
     margin-left: 64px;
 }
@@ -41,7 +41,7 @@
     font-weight: 700;
     line-height: 96px;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header__subtitle {
@@ -56,7 +56,7 @@
     left: 64px;
 
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header__link {
@@ -72,7 +72,7 @@
     right: 0;
     z-index: 1;
 
-    border: 1px solid red;                                                                                 
+    /* border: 1px solid red;                                                                                  */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -97,7 +97,7 @@
 .two-columns {
     width: 80%; 
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     margin-top: 100px;
     margin-bottom: 100px;
@@ -115,14 +115,14 @@
 
     color: #2F80ED;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .two-columns__main-text {
     width: 80%;
     min-width: 784px;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .two-columns__paragraph {
@@ -132,7 +132,7 @@
     font-size: 24px;
     font-weight: normal;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .two-columns__paragraph:last-child {
@@ -161,7 +161,7 @@
     display: flex;
     justify-content: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .section-subtitle {
@@ -178,7 +178,7 @@
     display: flex;
     justify-content: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .table {
@@ -193,7 +193,7 @@
     justify-content: space-between;    
     height: 100%;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .table__cell {
@@ -201,7 +201,7 @@
     margin-top: 60px;
     margin-bottom: 0;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
  .table__heading {
@@ -210,7 +210,7 @@
     font-size: 24px;
     font-weight: 700;
 
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
 }
 
 .table__text {
@@ -220,7 +220,7 @@
     font-size: 18px;
     font-weight: normal;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 } 
 
 
@@ -242,7 +242,8 @@
 
 .feinman__title {
     width: 646px;
-    border: 1px solid green;
+
+    /* border: 1px solid green; */
     
     margin-right: auto;
     margin-left: auto;
@@ -271,13 +272,13 @@
     display: flex;
     justify-content: center;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .feinman__link {
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 60%;
 
     /* Высота строки 51px, размер шрифта 36px, начертание шрифта нормальное */
     line-height: 54px;
@@ -286,7 +287,7 @@
     text-decoration: none;
     color: #000000;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 
@@ -320,7 +321,7 @@
     display: flex;
     justify-content: center;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 60%;
 }
 
@@ -341,12 +342,13 @@
     color: white;
     width: 60%;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .table_theme_dark {
     width: 1100px;
-    border: 1px solid white;
+
+    /* border: 1px solid white; */
 
     margin-left: auto;
     margin-right: auto;
@@ -367,11 +369,11 @@
     margin-right: 0;
     margin-top: 80px;
 
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .table__heading_theme_dark {
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
     /* Высота строки 1.15, размер шрифта 24px, начертание шрифта полужирное */
     line-height: 1.15;
@@ -382,7 +384,7 @@
 }
 
 .table__text_theme_dark {
-    border: 1px solid white;
+    /* border: 1px solid white; */
 
     /* Высота строки 1.2, размер шрифта 18px, начертание шрифта нормальное */
     line-height: 1.2;
@@ -421,7 +423,7 @@
 }
 
 .footer__columns {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
     width: 90%;
     height: 300px;
     margin-top: 60px;
@@ -432,7 +434,7 @@
 }
 
 .footer__column_content_copyright {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 
     height: 100%;
     width: 50%;
@@ -441,7 +443,7 @@
 }
 
 .logo_place_footer {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
     margin-left: 0;
 
     width: 183px;
@@ -449,7 +451,7 @@
 }
 
 .footer__author {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 
     margin-bottom: 18px;
     position: absolute;
@@ -462,7 +464,7 @@
 }
 
 .footer__column_content_info {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 
     height: 100%;
     width: 130px;
@@ -471,7 +473,7 @@
 }
 
 .footer__column-heading {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 
     margin-top: 0;
     margin-bottom: 20px;
@@ -482,15 +484,18 @@
 }
 
 .footer__column-links {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .footer__column_content_social {
-    border: 1px solid #ffffff;
+    /* border: 1px solid #ffffff; */
 
     display: inline-block;
 
