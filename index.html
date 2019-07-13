@@ -5,22 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/style.css">
-    <!-- Можно лучше: стоит обойтись без использования font-awesome -->
-    <script src="https://kit.fontawesome.com/59698be447.js"></script>
     <title>Научиться учиться</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <!-- Надо исправить: стоит пересмотреть контент атрибута alt. В него рекомендуется писать краткое содержание картинки (два слова), отделяя пробелами и с большой буквы -->
-            <img class="header__logo logo" src="/images/logo.svg" alt="logo_place_header logo_oF_yandex_practicum">
+            <img class="header__logo logo" src="/images/logo.svg" alt="Yandex Practicum">
             <h1 class="header__title">
                 Научиться
                 учиться
             </h1>
             <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-                <!-- Можно лучше: стоит добавить небольше отступ между иконкой и текстом -->
-                <a class="header__link" href="#">Узнать&rarr;</a>
+                <a class="header__link" href="#">Узнать &rarr;</a>
             </h2>
             <img class="header__main-illustration" src="/images/two_again.png" alt="two_again">
             <div class="header__square-pic"></div> 
@@ -83,8 +79,7 @@
                 <h3 class="feinman__subtitle">Выучить и не забыть.</h3>
                 <a href="#" class="feinman__link">Подробнее &rarr;</a>
             </section>
-            <!-- Надо исправить: между блоками feinman и kaufman имеется белая полоса. Ее стоит удалить -->
-            <!-- Надо исправить: цвет блоков footer и kaufman не соотвествуют макету. Стоит использовать цвета, предложенные в брифе -->
+        
             <section class="kaufman">
                 <h2 class="section-title_theme_dark">Принципы обучения</h2>
                 <h3 class="section-subtitle_theme_dark">от Джоша Кауфмана</h3>
@@ -150,12 +145,9 @@
                 <div class="footer__column_content_social">
                     <h3 class="footer__column-heading">Соцсети</h3>
                     <div class="footer__column-links">
-                        <!-- Надо исправить: шрифт ссылок ниже не соответствует макету -->
-                        <!-- Можно лучше: иконки социальных сетей получают разных размеров. Рекомендуется использовать иконки, приложенные к стартовому набору -->
-                        <!-- Надо исправить: для создания отступов не стоит использовать пробелы. Для этого лучше подойдут margin'ы -->
-                        <a href="#"><i class="fab fa-facebook-f footer__social-icons"> Facebook</i></a>    
-                        <a href="#"><i class="fab fa-vk footer__social-icons"> ВКонтакте</i></a>    
-                        <a href="#"><i class="fab fa-instagram footer__social-icons"> Instagram</i></a>    
+                        <a class="footer__column-links" href="#"><i class="footer__social-icons"><img src="images/facebook_white.svg" alt="facebook_white"></i>Facebook</a>    
+                        <a class="footer__column-links" href="#"><i class="footer__social-icons"><img src="images/vk_white.svg" alt="vk_white"></i>ВКонтакте</a>    
+                        <a class="footer__column-links" href="#"><i class="footer__social-icons"><img src="images/instagram_white.svg" alt="instagram_white"></i>Instagram</a>    
                     </div>                    
                 </div>
             </div>

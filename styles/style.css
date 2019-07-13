@@ -237,7 +237,9 @@
     background-color: #F2F2F2;
     position: relative;
 
-    border: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2;
+    border-left: 1px solid #F2F2F2;
 }
 
 .feinman__title {
@@ -297,9 +299,9 @@
 
 
 .kaufman {
-    background-color: #000000;
+    background-color: #1F1F1F;
 
-    border: 1px solid #000000;
+    border: 1px solid #1F1F1F;
 
     position: relative;
     overflow: hidden;
@@ -415,7 +417,7 @@
 
 
 .footer {
-    background-color: #000000;
+    background-color: #1F1F1F;
     color: #ffffff;
 
     display: flex;
@@ -500,10 +502,15 @@
     display: inline-block;
 
     height: 100%;
-    width: 130px;
+    width: 120px;
 }
 
 .footer__social-icons {
     text-decoration: none;
     color: #ffffff;
+
+    height: 16px;
+    width: 16px;
+
+    margin-right: 5px;
 }
