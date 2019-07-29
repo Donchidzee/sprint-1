@@ -17,6 +17,7 @@
     display: flex;
     height: 100%;
     position: relative;
+    overflow: hidden;
 
     background-color: #F2F2F2;
     /* выше установили ограничения для секции */
@@ -76,12 +77,21 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
 .header__square-pic {
     position: absolute;
     right: 0;
     top: 64px;
     height: 568px;
     width: 568px;
+
+    transform: rotate(-15deg);
+    animation: spin 20s linear 0s infinite;
 
     background-color: #2F80ED;
 }
@@ -100,7 +110,6 @@
     /* border: 1px solid red; */
 
     margin-top: 100px;
-    margin-bottom: 100px;
 
     display: flex;
     justify-content: space-between;
@@ -148,13 +157,93 @@
 
 
 
+.techics {
+
+}
+
+.cards {
+    width: 920px;
+    height: 100%;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /* border: 1px solid black;     */
+}
+
+.cards__item {
+    width: 240px;
+
+    margin-top: 60px;
+    margin-right: 100px;
+
+    /* border: 1px solid black;  */
+}
+
+.cards__item:nth-child(3) {
+    margin-right: 0;
+}
+
+.cards__image{
+    width: 160px;
+    height: 160px;
+
+    margin-right: 40px;
+    margin-left: 40px;
+
+    border-radius: 50%;
+
+    /* border: 1px solid black;  */
+}
+
+.cards__title {
+    margin-top: 43px;
+    margin-bottom: 16px;
+
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+
+    /* border: 1px solid black;  */
+}
+
+.cards__description {
+    width: 230px;
+
+    text-align: center;
+
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
 .section-title {
     width: 60%;
 
     margin-right: auto;
     margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
 
-    line-height: 69px;
+    line-height: 1.15;
     font-size: 60px;
     font-weight: 700;
 
