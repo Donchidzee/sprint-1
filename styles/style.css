@@ -233,6 +233,38 @@
 
 
 
+.video {
+    
+}
+
+.video__iframes {
+    /* border: 1px solid black; */
+    
+    width: 1060px;
+
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.video__iframe {
+    /* border: 1px solid black; */
+
+    width: 515px;
+    height: 316px;
+
+    margin-right: 20px;
+}
+
+.video__iframe:nth-child(2) {
+    margin-right: 0;
+}
+
+
+
+
+
+
 
 
 .section-title {
