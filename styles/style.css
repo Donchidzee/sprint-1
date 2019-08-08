@@ -257,7 +257,7 @@
 }
 
 .video__iframe {
-    /* border: 1px solid black; */
+    border: 1px solid black;
 
     width: 515px;
     height: 316px;
@@ -310,7 +310,7 @@
 .feinman__title {
     width: 646px;
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
     margin-right: auto;
     margin-left: auto;
