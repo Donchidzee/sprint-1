@@ -236,6 +236,9 @@
 .video {
     position: relative;
 
+    /* display: flex;
+    flex-direction: column; */
+
     height: 450px;
 }
 
@@ -249,7 +252,7 @@
     left: 0;
     bottom: -50px;
 
-    width: 1060px;
+    width: 1130px;
 
     margin-top: 50px;
     margin-right: auto;
@@ -257,10 +260,7 @@
 }
 
 .video__iframe {
-    border: 1px solid black;
-
-    width: 515px;
-    height: 316px;
+    /* border: 1px solid black; */
 
     margin-right: 20px;
 }
